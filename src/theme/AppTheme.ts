@@ -35,15 +35,15 @@ import { Platform, useColorScheme } from 'react-native'
 //     }
 // };
 
+
+
 const LightScheme = {
     ...MD3LightTheme,
-    // fonts: configureFonts({ config: fontConfig }),
     colors: LightTheme,
 };
 
 const DarkScheme = {
     ...MD3DarkTheme,
-    // fonts: configureFonts({ config: fontConfig }),
     colors: DarkTheme,
 };
 

@@ -1,4 +1,4 @@
-import MyBottomTabs from '../components/MyBottomTabs';
+import MyBottomTabs from '../styled components/MyBottomTabs';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Settings from '../screens/settings/Settings';
 import Info from '../screens/info/Info';

@@ -5,5 +5,6 @@ export const LightTheme = {
     background: '#ffffff',
     text: '#000000',
     dark: '#000000',
-    light: '#ffffff'
+    light: '#ffffff',
+    barStyle: 'dark-content',
 };

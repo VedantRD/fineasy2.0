@@ -36,7 +36,7 @@ const MyBottomTabs = ({ navigation, state, descriptors }: Props) => {
             elevation: 4,
             shadowOpacity: 1.0,
             borderColor: 'gray',
-            borderWidth: 0.5,
+            borderTopWidth: 0.5,
             marginTop: 0,
             height: 60
         }}>

@@ -20,7 +20,7 @@ const Home = ({ navigation, titalize }: Props) => {
                 {calculatorData.map((category, ind) => {
                     return (
                         <View key={ind} >
-                            <Text variant='titleMedium'>{titalize(category.name)} Calculators</Text>
+                            <Text variant='titleMedium' style={{ marginBottom: 5 }}>{titalize(category.name)} Calculators</Text>
                             <FlatGrid
                                 itemDimension={100}
                                 data={category.data}
